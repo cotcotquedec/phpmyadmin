@@ -17,3 +17,6 @@ RUN wget https://files.phpmyadmin.net/themes/mhn/1.4/mhn-1.4.zip \
   && unzip mhn-1.4.zip \
   && mv mhn /var/www/html/themes/ \
   && rm mhn-1.4.zip
+
+
+COPY config.inc.php /etc/phpmyadmin/config.inc.php
