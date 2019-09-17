@@ -16,7 +16,7 @@ RUN wget https://files.phpmyadmin.net/themes/metro/2.8/metro-2.8.zip \
   && mv metro /themes/ \
   && rm metro-2.8.zip
 
-# METRO
+# MHN
 RUN wget https://files.phpmyadmin.net/themes/mhn/1.4/mhn-1.4.zip \
   && unzip mhn-1.4.zip \
   && mv mhn /themes/ \
